@@ -1,0 +1,182 @@
+@charset "UTF-8";
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 100px;
+    background-image: radial-gradient(#1c1c1c, #000000);
+}
+header{
+    background-image: linear-gradient(to top,#330303,rgb(105, 0, 0),rgb(105, 0, 0));
+    color: silver;
+    width: 100%;
+    display: inline-flex;
+    height: 115px;
+    padding: 35px;
+    position: fixed;
+    top: 0%;
+    text-shadow: 3px 4px 3px black;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.904);
+    
+}
+/*LOGO*/
+header figure{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+header figure img{
+    max-width: 90px;
+}
+header figure figcaption{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xxx-large;
+    padding-left: 10px;
+
+    
+}
+/*MENU*/
+header nav{
+    width: 480px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding-right: 60px;
+}
+header nav ul li a{
+    color: silver;
+    font-size: 30px;
+    font-weight: 300;
+    transition-duration: .5s;
+}
+header nav ul li a:hover {
+    color: white;
+    font-size:x-large;
+    font-weight: 600;
+}
+
+/*paragrafo*/
+section p {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: smaller;
+    letter-spacing: 5px;
+    padding-top: 50px;
+    text-shadow: 3px 4px 3px black;
+}
+/* lista de filmes*/
+main.conteudo{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section ul.categorias{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+   
+}
+section ul.categorias li a{
+    color: white;
+    background-color: #2f2f2f;
+    display: block;
+    width: 150px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.37);
+    transition-duration: .3s;
+}
+section ul.categorias li a:hover {
+    color: #2f2f2f;
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+    
+
+}
+section ul.listaFilme{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main section div.pesquisa input{
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+main section div.pesquisa button{
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor:pointer;
+}main section div.pesquisa button:active{
+    background-color: red;
+    color: silver;
+}
+section ul.listaFilme li{
+    max-width: 185px; 
+    cursor:pointer;
+}
+section ul.listaFilme li figure h2{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+section ul.listaFilme li figure img{
+    width: 100%;
+    transition: 1s;
+
+}
+section ul.listaFilme li figure img:hover{
+    width: 115%;
+    backface-visibility: hidden;
+}
+
+footer{
+    background-image:linear-gradient( to top,#330303,rgb(105, 0, 0),rgb(105, 0, 0));
+    padding: 20px;
+    box-shadow: 0px -6px 8px rgba(0, 0, 0, 0.904);
+}
+footer ul code {
+    font-family: Impact;
+    font-size: 21px;
+    text-decoration: none;
+    text-shadow: 6px 5px 5px #0e0d0d;
+    color: silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+
+}
+footer{
+    text-decoration: none;
+  
+}
+footer ul code li a{
+    text-shadow: 6px 5px 5px #0e0d0d;
+    color: silver;
+    text-decoration: none;
+    font-weight: lighter;
+
+}
+footer ul code li:hover{
+    text-decoration: underline;
+    font-size: 22px;
+
+}
