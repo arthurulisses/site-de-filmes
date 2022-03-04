@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'Impact';
+    src: url('impact-maisfontes.6269/impact.ttf') format('truetype');
+    font-weight: normal;
+}
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 100px;
@@ -10,7 +15,7 @@ header{
     color: silver;
     width: 100%;
     display: inline-flex;
-    height: 115px;
+    height: 100px;
     padding: 35px;
     position: fixed;
     top: 0%;
@@ -24,10 +29,10 @@ header figure{
     align-items: center;
 }
 header figure img{
-    width: 90px;
+    width: 80px;
 }
 header figure figcaption{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Impact';
     font-size: 8vh;
     padding-left: 10px;
     min-width: 10px;
@@ -161,8 +166,6 @@ section ul.categorias li a:hover {
     background-color: white;
     font-size: large;
     font-weight: bold;
-    
-
 }
 section ul.listaFilme{
     width: 100%;
@@ -200,7 +203,7 @@ section ul.listaFilme li figure h2{
 }
 section ul.listaFilme li figure img{
     width: 100%;
-    transition: 1s;
+    transition-duration: 1s;
 
 }
 section ul.listaFilme li figure img:hover{
@@ -223,18 +226,20 @@ footer ul code {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 footer{
     text-decoration: none;
-    width: 100%;
+    width: 97%;
 }
 footer ul code li a{
     text-shadow: 6px 5px 5px #0e0d0d;
     color: silver;
     text-decoration: none;
     font-weight: lighter;
+
 }
 footer ul code li:hover{
     text-decoration: underline;
