@@ -191,6 +191,7 @@ main section div.pesquisa button{
 section ul.listaFilme li{
     max-width: 185px; 
     cursor:pointer;
+    
 }
 section ul.listaFilme li figure h2{
     color: white;
@@ -204,13 +205,13 @@ section ul.listaFilme li figure h2{
 section ul.listaFilme li figure img{
     width: 100%;
     transition-duration: 1s;
-
+    
 }
 section ul.listaFilme li figure img:hover{
-    width: 115%;
+    width: 116%;
     backface-visibility: hidden;
+    transform: translate(-6.5%, 0%);
 }
-
 footer{
     background-image:linear-gradient( to top,#330303,rgb(105, 0, 0),rgb(105, 0, 0));
     padding: 20px;
