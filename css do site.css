@@ -10,6 +10,8 @@ body{
     background-image: radial-gradient(#1c1c1c, #000000);
     background-size: cover;
     width: 100%;
+    background: black url(https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 header{
     background-image: linear-gradient(to top,#330303,rgb(105, 0, 0),rgb(105, 0, 0));
@@ -90,6 +92,7 @@ header nav ul li a:hover {
         transform: translateX(100%);
         transition: transform 1s ease-in;
         background-image: linear-gradient(to top,#330303,rgb(105, 0, 0),rgb(105, 0, 0));
+        
     }
     .nav-list li {
         margin-left: 0;
@@ -176,13 +179,17 @@ main section div.pesquisa input{
     margin-bottom: 30px;
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 3px 3px 3px #1c1c1c;
 }
 main section div.pesquisa button{
     margin-bottom: 30px;
     padding: 5px;
     border-radius: 10px;
     cursor:pointer;
-}main section div.pesquisa button:active{
+    box-shadow: 3px 3px 3px #1c1c1c;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+main section div.pesquisa button:active{
     background-color: red;
     color: silver;
 }
@@ -199,11 +206,12 @@ section ul.listaFilme li figure h2{
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    text-shadow: 3px 4px 3px #1c1c1c;
 }
 section ul.listaFilme li figure img{
     width: 100%;
     transition-duration: 1s;
-    
+    box-shadow: 1px 6px 6px #1c1c1c;
 }
 section ul.listaFilme li figure img:hover{
     width: 116%;
@@ -214,7 +222,7 @@ footer{
     background-image:linear-gradient( to top,#330303,rgb(105, 0, 0),rgb(105, 0, 0));
     padding: 20px;
     box-shadow: 0px -6px 8px rgba(0, 0, 0, 0.904);
-    
+    position: absolute;
 }
 footer ul code {
     font-family: Impact;
@@ -232,6 +240,7 @@ footer ul code {
 footer{
     text-decoration: none;
     width: 97%;
+    position: relative;
 }
 footer ul code li a{
     text-shadow: 6px 5px 5px #0e0d0d;
