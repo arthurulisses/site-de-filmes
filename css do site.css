@@ -12,6 +12,7 @@ body{
     width: 100%;
     background: black url(https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg) center center no-repeat fixed;
     background-size: cover;
+    height: 100vh;
 }
 header{
     background-image: linear-gradient(to top,#330303,rgb(105, 0, 0),rgb(105, 0, 0));
